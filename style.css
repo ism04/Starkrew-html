@@ -1,16 +1,22 @@
 body{
-    background-image: url(hatterkep.jpg);
-
+    background-image: url(skyhatter.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    font-style: inherit;
 }
 #kep{
-    width: 400px;
-    height: 300px;
+    width: 450px;
+    height: 350px;
     margin: auto;
+    border: 1px black ridge;
+    border-radius: 75%;
 }
 #egeszoldal{
-background-color:white;
+background-image: url(whiteback.jpg);
+background-repeat: no-repeat;
+background-size:cover;
 margin: auto;
-width: 1200px;
+width: 1050px;
 border: 2px gray solid;
 }
 #based{
@@ -18,7 +24,9 @@ font-size: 100%;
 }
 h3{
 font-size: 150%;
-
+}
+h1,h2,h3{
+    text-decoration-line: underline;
 }
 h1{
     font-size: 200%;
@@ -27,4 +35,11 @@ h1{
 .starkrew_mini{
     width: 75px;
     height: 75px;
+}
+
+#logo{
+    text-align: center;
+}
+.terkep{
+    font-size: larger;
 }
