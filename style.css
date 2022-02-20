@@ -1,0 +1,30 @@
+body{
+    background-image: url(hatterkep.jpg);
+
+}
+#kep{
+    width: 400px;
+    height: 300px;
+    margin: auto;
+}
+#egeszoldal{
+background-color:white;
+margin: auto;
+width: 1200px;
+border: 2px gray solid;
+}
+#based{
+font-size: 100%;
+}
+h3{
+font-size: 150%;
+
+}
+h1{
+    font-size: 200%;
+    text-align: center;
+}
+.starkrew_mini{
+    width: 75px;
+    height: 75px;
+}
